@@ -1,0 +1,20 @@
+{
+  "name": "serverless-lambda-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lambda-serve": "netlify-lambda serve functions",
+    "lambda-build": "netlify-lambda build functions"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bufferutil": "^4.0.1",
+    "canvas": "file:./canvas",
+    "custom-env": "^1.0.0",
+    "jsdom": "^14.0.0",
+    "netlify-lambda": "^1.4.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "utf-8-validate": "^5.0.2"
+  }
+}
