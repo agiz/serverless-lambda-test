@@ -1,21 +1,25 @@
 How to put mock modules to node_modules directory:
 --------------------------------------------------
 
-create a folder `canvas` in your current project
-add `index.js` with `module.exports = {}` to that folder.
+1. create a folder `canvas` in your current project
+2. add `index.js` with `module.exports = {}` to that folder.
 
-Reference module in package.json:
+3. Reference module in package.json:
 "canvas": "file:./canvas",
 
-run yarn
+4. run yarn
 
 
 How to expose variables in .env file:
 -------------------------------------
 
-yarn add custom-env
-require('custom-env').env()
+* yarn add custom-env
+* require('custom-env').env()
 
+Netlify
+-------
+
+* set API_URL environment variable
 
 Run
 ---
